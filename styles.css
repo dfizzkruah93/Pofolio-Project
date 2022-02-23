@@ -1,10 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
   background-color: #fff;
 }
 
-.text-wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -368,7 +375,7 @@ form ul li {
 }
 
 .contact-wrapper {
-  background-image: url("./images/contact form background shapes.svg");
+  background-image: url("./images/contact-form-shapes-mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -379,7 +386,7 @@ form ul li {
   padding: 103px 24px 24px;
 }
 
-.contact-wrapper h2 {
+.contact-wrapper h3 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -404,9 +411,10 @@ form ul li {
 }
 
 form {
-  margin: 0 auto;
-  width: 447px;
-  padding: 0;
+  margin: 0 24px 0 18px;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 input,
