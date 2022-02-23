@@ -369,8 +369,8 @@ form ul li {
   background-image: url("./images/contact-me.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10;
-  margin-left: 10;
+  padding: 10px;
+  margin-left: 10px;
   margin-top: 24px;
 }
 
@@ -392,7 +392,7 @@ form ul li {
   display: flex;
   align-self: auto;
   padding-top: 100px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 30px;
   line-height: 42px;
   padding-left: 40px;
@@ -458,7 +458,6 @@ button {
   color: #6070ff;
   margin-top: 12.5px;
   border: none;
-
 }
 
 button:enabled {
