@@ -370,6 +370,9 @@ form ul li {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
   margin-left: 0;
   margin-top: 103px;
 }
@@ -386,7 +389,7 @@ form ul li {
   padding: 103px 24px 24px;
 }
 
-.contact-wrapper h3 {
+.contact-wrapper h2 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
