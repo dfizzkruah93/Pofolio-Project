@@ -1,7 +1,7 @@
-.body {
+body {
   padding: 0;
   margin: 0;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 .text-wrapper {
@@ -368,8 +368,9 @@ form ul li {
 }
 
 .contact-wrapper {
-  background-image: url("/images/header-mobile.svg");
+  background-image: url("./images/contact form background shapes.svg");
   background-repeat: no-repeat;
+  align-items:center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -410,8 +411,9 @@ form {
 
 input,
 textarea {
+  color: #172B4D;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 17px;
   font-family: serif, sans-serif;
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -426,6 +428,13 @@ input {
 
 textarea {
   height: 170px;
+}
+
+input::placeholder  {
+  color: #172B4D;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
 }
 
 button {
