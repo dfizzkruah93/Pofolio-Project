@@ -95,7 +95,6 @@ h2 {
   color: #7f8cff;
   margin-top: 12px;
   margin-bottom: 15px;
-  vertical-align: top;
 }
 
 ul {
@@ -103,6 +102,19 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+form li {
+  margin-top: 10px;
+  padding: 12px 0;
 }
 
 .main ul {
@@ -121,6 +133,12 @@ ul li {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+form ul li {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
 }
 
 .main ul li {
@@ -335,19 +353,18 @@ ul li {
 
 .outside {
   display: flex;
-  flex-flow: row-reverse wrap;
-  flex-direction: column;
+  flex-direction: row;
+  width: 80vw;
   justify-content: space-between;
 }
 
 .contact-me {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
   background-image: url("./images/contact-me.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 24px;
+  padding: 0;
+  margin-left: 0;
+  margin-top: 103px;
 }
 
 .contact-wrapper {
@@ -358,7 +375,7 @@ ul li {
   flex-direction: column;
   margin-top: 88px;
   margin-left: 0;
-  padding: 24px;
+  padding: 103px 24px 24px;
 }
 
 .contact-wrapper h2 {
@@ -387,27 +404,8 @@ ul li {
 
 form {
   margin: 0 auto;
-  width: 375px;
-  padding: 0 10px;
-}
-
-form ul {
-  list-style: none;
+  width: 100%;
   padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-ul li {
-  display: flex;
-  justify-content: flex-start;
-  padding: 0 24px;
-}
-
-form li {
-  margin-top: 20px auto;
-  padding: 12px 0;
 }
 
 input,
@@ -418,7 +416,7 @@ textarea {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  width: 327px;
+  width: 100%;
   padding: 15px 16px;
 }
 
@@ -431,6 +429,7 @@ textarea {
 }
 
 button {
+  font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -439,17 +438,34 @@ button {
   height: 48px;
   background: #fff;
   border-radius: 8px;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
   margin-top: 22px;
-  margin-bottom: 45px;
+  border: 0;
+}
+
+button:enabled {
+  background: #fff;
+  border: 1px solid #7f8cff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #6070ff;
 }
 
 button:hover {
-  border: 1px solid #6070ff;
-  text-decoration-line: underline;
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  color: #fff;
+}
+
+button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+button:disabled {
+  color: #5e6c84;
 }
