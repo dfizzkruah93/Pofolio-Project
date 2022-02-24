@@ -377,9 +377,9 @@ form ul li {
 .contact-wrapper {
   background-image: url("./images/contact-form-shapes-mobile@2x.svg");
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: right top;
-  border-top-left-radius: 80px;
+  background-size: contain;
+  background-position: top;
+  border-top-left-radius: 60px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -389,13 +389,16 @@ form ul li {
 }
 
 .contact-wrapper h2 {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  align-self: auto;
+  font-style: normal;
+  text-align: center;
   padding-top: 100px;
   font-weight: 700;
   font-size: 30px;
   line-height: 42px;
   padding-left: 40px;
+  margin-top: 20px;
   color: #fff;
 }
 
@@ -409,10 +412,11 @@ form ul li {
 }
 
 form {
-  margin: 0 24px 0 18px;
+  margin: 25px;
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 input,
@@ -481,4 +485,11 @@ button:active {
 
 button:disabled {
   color: #5e6c84;
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    width: auto;
+    background-size: contain;
+  }
 }
