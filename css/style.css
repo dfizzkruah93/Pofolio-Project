@@ -384,7 +384,6 @@ textarea {
   margin: 8px auto;
 }
 
-/* Desktop version */
 @media only screen and (min-width: 992px) {
   body {
     height: 4208px;
