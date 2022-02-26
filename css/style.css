@@ -38,12 +38,30 @@ h2 {
 
 .navbar img {
   height: 20px;
-  width: auto;
+  width: 50px;
   padding: 10px 12px;
 }
 
 nav {
-  display: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+a {
+  flex: 1;
+  background-color: #396df2;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+a:hover,
+a:focus {
+  background-color: #fff;
+  color: #396df2;
 }
 
 main {
