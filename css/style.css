@@ -38,30 +38,12 @@ h2 {
 
 .navbar img {
   height: 20px;
-  width: 50px;
+  width: auto;
   padding: 10px 12px;
 }
 
 nav {
-  display: flex;
-  gap: 0.5rem;
-}
-
-a {
-  flex: 1;
-  background-color: #396df2;
-  color: #fff;
-  border: 1px solid;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.5s ease-out;
-}
-
-a:hover,
-a:focus {
-  background-color: #fff;
-  color: #396df2;
+  display: none;
 }
 
 main {
@@ -95,6 +77,19 @@ main {
 
 .profile-text {
   margin-top: 12px;
+  animation: 3s infinite alternate slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .purple-text {
@@ -225,7 +220,23 @@ main {
   background-color: #fff;
   margin: 0 24px;
   border-top-right-radius: 100px;
+  animation: 3s infinite alternate slidein;
 }
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 .languages {
   display: flex;
@@ -308,7 +319,21 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 24px;
+  animation: 3s infinite alternate slidein;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 .contact-text h2 {
   text-align: center;
