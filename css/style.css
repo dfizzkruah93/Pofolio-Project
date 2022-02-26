@@ -223,8 +223,6 @@ main {
   animation: 3s infinite alternate slidein;
 }
 
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -236,7 +234,6 @@ main {
     width: 100%;
   }
 }
-
 
 .languages {
   display: flex;
@@ -333,7 +330,6 @@ main {
     width: 100%;
   }
 }
-
 
 .contact-text h2 {
   text-align: center;
@@ -660,4 +656,5 @@ textarea {
   .last-line {
     display: none;
   }
+}
 }
