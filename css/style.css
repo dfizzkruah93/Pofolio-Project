@@ -198,7 +198,7 @@ main {
 .btn:hover,
 .btn:active {
   background-color: #396df2;
-  color: #fff;
+  color: green;
 }
 
 .about-myself {
