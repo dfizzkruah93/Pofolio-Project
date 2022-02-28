@@ -77,6 +77,19 @@ main {
 
 .profile-text {
   margin-top: 12px;
+  animation: 15s infinite alternate slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .purple-text {
@@ -207,6 +220,19 @@ main {
   background-color: #fff;
   margin: 0 24px;
   border-top-right-radius: 100px;
+  animation: 15s infinite alternate slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .languages {
@@ -290,6 +316,19 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 24px;
+  animation: 15s infinite alternate slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .contact-text h2 {
