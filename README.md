@@ -13,7 +13,7 @@
 
 ## Getting Started
 
-**Use this url to clone the repo on your terminal: https: //github.com/dfizzkruah93/Portfolio
+**Use this url to access my pofolio page: https://dfizzkruah93.github.io/Pofolio-Project/
 
 ### Prerequisites: Internet, Web browser
 
