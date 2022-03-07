@@ -50,6 +50,31 @@ nav {
   display: none;
 }
 
+nav.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  /* z-index: 1; */
+}
+
+.hamburger.active {
+  list-style: none;
+  font-weight: 600;
+  font-size: 32px;
+  background-color: rgba(96, 112, 255, 0.95);
+  backdrop-filter: blur(3px);
+}
+
+.hamburger.active a {
+  color: #fff;
+  text-decoration: none;
+}
+
 main {
   min-height: 100vh;
   background-color: #f7f7f9;
