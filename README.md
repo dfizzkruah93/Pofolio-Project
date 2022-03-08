@@ -1,21 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: Portfolio Setup and Mobile Version Skeleton
+# Project Name: Personal Portfolio
 
-> Description the project. This project is about setting your Github repository and adding a linters file inorder to  develop a mobile skeleton pofolio website
+> Description the project. This project is all about my personal portfolio webiste.
 
 
 ## Built With
 
-- Major languages HTML, CSS
-- Technologies used Git, Visual Studio Code
+- Major languages HTML, CSS, Javascript
+- Technologies used Git, Github, Visual Studio Code
 
 
 ## Getting Started
 
+** Please visit the link to my personal website : [Live Demo Link](https://dfizzkruah93.github.io/Pofolio-Project/)
+
 **Use this url to clone the repo on your terminal: https://dfizzkruah93.github.io/Pofolio-Project/
 
 ### Prerequisites: Internet, Web browser
+
+You will need to install Node.js to run the code linters (that are included in the source code) locally on your machine.<br />
+<b>[Visit this link to download the latest version of Node.js](https://nodejs.org/en/download/).</b>
+
+- Once you are inside the folder where you have cloned the repository, please run the following code through a shell or command prompt.
+
+  ```sh
+  npm install
+  ```
+
+  This will install the npm packages to set the linters up.
+
+### Usage
+
+This website exists solely for personal use and display of skill proficiency. You are free to download and use the source code for your project.
 
 ### Setup: Git, VS Code
 
@@ -30,6 +47,8 @@
 ## 🤝 Contributing
 
 To any developer who would wish to contribute to this project, you are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
