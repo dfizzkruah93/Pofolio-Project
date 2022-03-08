@@ -24,18 +24,24 @@
   <body>
     <header class="navbar">
       <div class="logo">
-        <a href="index.html"><img src="./img/Logo.svg" alt="logo" /></a>
+        <a href="index.html">George Pofolio</a>
       </div>
-      <div class="menu-icon">
+      <div class="menu-icon" id="hamburger" onclick="mobileMenu()">
         <img src="./img/icon.png" alt="icon" />
       </div>
 
-      <nav class="active">
-        <ul class="hamburger active">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+      <nav class="menu-btn">
+        <div class="blur">
+          <div id="mobile-exit" class="mobile-menu-exit" onclick="mobileMenu()">
+            <img src="img/exit.svg" alt="Close" />
+          </div>
+          <ul>
+            <li><a href="#portfolio" onclick="menuLink()">Portfolio</a></li>
+            <li><a href="#about-me" onclick="menuLink()">About</a></li>
+            <li><a href="#contact" onclick="menuLink()">Contact</a></li>
+          </ul>
+        </div>
+        
       </nav>
     </header>
 
@@ -47,7 +53,7 @@
           </h1>
         </div>
 
-        <div class="profile-text" id="#pofolio">
+        <div class="profile-text" id="pofolio">
           <p>
             I'm a software developer. I can help you build a product, feature or
             website look through some of my work and experience! If you like
@@ -219,7 +225,7 @@
           </div>
         </div>
       </section>
-      <section class="about-myself" id="#about">
+      <section class="about-myself" id="about">
         <div class="about">
           <h1>
             About<br />
@@ -330,7 +336,7 @@
           </div>
         </div>
       </section>
-      <footer class="contact-me" id="#contact">
+      <footer class="contact-me" id="contact">
         <div class="contact-text">
           <h2>Contact me</h2>
 
