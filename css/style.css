@@ -5,6 +5,7 @@
 
 body {
   font-family: Poppins, sans-serif;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -29,12 +30,10 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 44px;
   height: 48px;
-  margin-left: 34px;
-  margin-right: 34px;
-  padding-left: 52px;
-  padding-right: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .navbar img {
@@ -73,6 +72,8 @@ main {
   background-repeat: no-repeat;
   background-color: #fff;
   padding: 0 24px;
+  padding-top: 114px;
+  padding-bottom: 136px;
   display: flex;
   flex-direction: column;
   height: 718px;
@@ -126,41 +127,31 @@ main {
 }
 
 .primary {
-  margin-top: 114px;
-  width: 327px;
-  height: 150px;
+  margin-bottom: 12px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  padding: 0;
+  margin: 0;
   color: #172b4d;
 }
 
 .profile-text {
+  margin-bottom: 12px;
   margin-top: 12px;
-  animation: 15s infinite alternate slidein;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 .purple-text {
   color: #7f8cff;
-  margin-top: 12px;
+  margin-bottom: 12px;
   font-weight: 500;
 }
 
 .social-media-icons {
   margin-top: 14px;
+  margin-bottom: 20px;
 }
 
 .social-list {
@@ -169,6 +160,8 @@ main {
   list-style: none;
   gap: 20px;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .works {
@@ -256,6 +249,8 @@ main {
 }
 
 .btn {
+  display: flex;
+  justify-content: space-between;
   border: 1px solid #396df2;
   text-decoration: none;
   width: fit-content;
@@ -267,6 +262,7 @@ main {
   color: #396df2;
   cursor: pointer;
   transition: 300ms;
+  margin-top: 20px;
 }
 
 .btn:hover,
@@ -281,20 +277,8 @@ main {
   background-color: #fff;
   margin: 0 24px;
   border-top-right-radius: 100px;
-  animation: 15s infinite alternate slidein;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 .languages {
   display: flex;
@@ -377,20 +361,8 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 24px;
-  animation: 15s infinite alternate slidein;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 .contact-text h2 {
   text-align: center;
@@ -491,8 +463,6 @@ textarea {
     overflow-x: hidden;
   }
 
-  
-
   .menu-icon {
     display: none;
   }
@@ -560,6 +530,7 @@ textarea {
     color: #7f8cff;
     font-weight: 500;
     margin-top: 12px;
+    margin-bottom: 12px;
   }
 
   .social-media-icons1 {
@@ -571,13 +542,15 @@ textarea {
     padding-left: 0;
     color: #7f8cff;
     font-weight: 500;
+    margin-top:12px;
   }
 
   .social-media-icons2 {
     padding-left: 0;
+    margin-bottom: 20px;
   }
 
-  .works {
+  .portfolio {
     box-sizing: border-box;
     margin: 142px;
   }
@@ -593,11 +566,11 @@ textarea {
     height: auto;
   }
 
-  .works .single-work:nth-child(odd) {
+  .portfolio .single-work:nth-child(odd) {
     flex-direction: row-reverse;
   }
 
-  .works .single-work:nth-child(even) {
+  .portfolio .single-work:nth-child(even) {
     flex-direction: row;
   }
 
@@ -613,6 +586,8 @@ textarea {
   }
 
   .btn {
+    display: flex;
+    justify-content: space-between;
     box-shadow: 0 5px 3px #ccc;
     text-decoration: none;
     width: fit-content;
@@ -625,6 +600,7 @@ textarea {
     background-color: #fff;
     cursor: pointer;
     transition: 300ms;
+    margin-top: 15px;
   }
 
   .btn:hover,
@@ -633,7 +609,7 @@ textarea {
     color: #fff;
   }
 
-  .about-myself {
+  .about {
     display: grid;
     grid-template-columns: 40% 60%;
     background-color: #fff;
@@ -642,7 +618,7 @@ textarea {
     box-sizing: border-box;
   }
 
-  .about {
+  .about-me {
     display: flex;
     flex-direction: column;
     gap: 15px;
