@@ -8,7 +8,7 @@ const projects = [
     longDescription:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur non, laborum et ducimus voluptates nulla odio unde officiis. Corrupti, numquam. Accusamus doloremque dolor maiores nisi pariatur nemo a fuga!',
     skills: ['html', 'css', 'JavaScript'],
-    modalSkills: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstraps'],
+    modalSkills: ['html', 'css', 'javaScript'],
     modalLink: '#modal-1',
     image: './img/Portfolio6.png',
     imageAlt: 'Portfolio Image One',
@@ -25,7 +25,7 @@ const projects = [
     longDescription:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur non, laborum et ducimus voluptates nulla odio unde officiis. Corrupti, numquam. Accusamus doloremque dolor maiores nisi pariatur nemo a fuga!',
     skills: ['html', 'css', 'JavaScript'],
-    modalSkills: ['html', 'css', 'javaScript', 'github', 'bootstraps'],
+    modalSkills: ['html', 'css', 'javaScript'],
     modalLink: '#modal-2',
     image: './img/Portfolio5.png',
     imageAlt: 'Portfolio 2',
@@ -42,7 +42,7 @@ const projects = [
     longDescription:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur non, laborum et ducimus voluptates nulla odio unde officiis. Corrupti, numquam. Accusamus doloremque dolor maiores nisi pariatur nemo a fuga!',
     skills: ['html', 'css', 'JavaScript'],
-    modalSkills: ['html', 'css', 'javaScript', 'github', 'bootstraps'],
+    modalSkills: ['html', 'css', 'javaScript'],
     modalLink: '#modal-3',
     image: './img/Portfolio7.png',
     imageAlt: 'Portfolio 3',
@@ -59,7 +59,7 @@ const projects = [
     longDescription:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur non, laborum et ducimus voluptates nulla odio unde officiis. Corrupti, numquam. Accusamus doloremque dolor maiores nisi pariatur nemo a fuga!',
     skills: ['html', 'css', 'JavaScript'],
-    modalSkills: ['html', 'css', 'javaScript', 'github',  'bootstraps'],
+    modalSkills: ['html', 'css', 'javaScript'],
     modalLink: '#modal-4',
     image: './img/Portfolio8.png',
     imageAlt: 'Portfolio 4',
