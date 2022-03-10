@@ -328,4 +328,48 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
   }
 });
 
+// function to populate the contact form from localStorage
+function loadFormData() {
+  const userData = JSON.parse(localStorage.getItem('contact-details'));
+  document.querySelector('#email').value = userData.email;
+  document.querySelector('#contact-name').value = userData.name;
+  document.querySelector('#contact-message').value = userData.message;
+}
+
+function initializeStorage() {
+  if (localStorage.getItem('contact-details') == null) {
+    const details = {
+      name: '',
+      email: '',
+      message: '',
+    };
+
+    localStorage.setItem('contact-details', JSON.stringify(details));
+  }
+}
+
+function updateStorage() {
+  const details = JSON.parse(localStorage.getItem('contact-details'));
+  details.email = document.querySelector('#email').value;
+  details.name = document.querySelector('#contact-name').value;
+  details.message = document.querySelector('#contact-message').value;
+  localStorage.setItem('contact-details', JSON.stringify(details));
+}
+
+initializeStorage();
+loadFormData();
+
+// Event listeners to save data when user populates contact form
+document.querySelector('#email').addEventListener('keyup', () => {
+  updateStorage();
+});
+
+document.querySelector('#contact-name').addEventListener('keyup', () => {
+  updateStorage();
+});
+
+document.querySelector('#contact-message').addEventListener('keyup', () => {
+  updateStorage();
+});
+
 
