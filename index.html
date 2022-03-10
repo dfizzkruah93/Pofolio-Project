@@ -106,9 +106,7 @@
         </div>
       </section>
 
-      <section class="portfolio" id="portfolio"></section>
-
-      <section class="about" id="about">
+      <section class="portfolio" id="portfolio"></section><section class="about" id="about">
         <div class="about-me">
           <h1>
             About<br />
@@ -229,11 +227,12 @@
             love to help with it.
           </p>
         </div>
-        <div class="form">
+        <div id="contact-form" class="form">
           <form action="https://formspree.io/f/xoqrdelo" method="post">
             <ul>
               <li>
                 <input
+                id="contact-name"
                   type="text"
                   name="name"
                   placeholder="Your Name"
@@ -243,6 +242,7 @@
               </li>
               <li>
                 <input
+                id="email"
                   type="email"
                   name="email"
                   placeholder="Your Email"
@@ -251,6 +251,7 @@
               </li>
               <li>
                 <textarea
+                id="contact-message"
                   name="message"
                   placeholder="Write your message here"
                   maxlength="500"
@@ -258,10 +259,11 @@
                 ></textarea>
               </li>
               <li>
-                <button class="button-submit" type="submit">
+                <button class="button-submit" id="submit" type="submit">
                   Get It Touch
                 </button>
-              </li>
+                  <p id ="response-text"></p>
+                </li>
             </ul>
           </form>
         </div>

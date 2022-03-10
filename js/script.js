@@ -298,5 +298,34 @@ document.addEventListener('click', (e) => {
 });
 
 
+/*Email Validation */
+
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+  let valid = true;
+
+  const responseContainer = document.querySelector('#response-text');
+
+  const email = document.querySelector('#email').value;
+
+  const emailArray = email.split('');
+
+  for (let i = 0; i < emailArray.length; i += 1)  {
+    if (
+      emailArray[i] !== emailArray[i].toLowerCase()
+      && emailArray[i] !== '@' && emailArray[i] !== '.'
+    ) {
+      valid = false;
+    }
+  }
+
+  // if the email is valid, proceed with form submission
+  if (valid) {
+    // empty the response test in contact form
+    responseContainer.innerHTML = '';
+  } else {
+    e.preventDefault();
+    responseContainer.innerHTML = 'Invalid Email';
+  }
+});
 
 
