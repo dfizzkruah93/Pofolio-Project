@@ -297,10 +297,10 @@ document.addEventListener('click', (e) => {
   }
 });
 
-/*
- Email Validation
- */
- document.querySelector('#contact-form').addEventListener('submit', (e) => {
+
+/*Email Validation */
+
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
   let valid = true;
 
   const responseContainer = document.querySelector('#response-text');
@@ -309,7 +309,7 @@ document.addEventListener('click', (e) => {
 
   const emailArray = email.split('');
 
-  for (let i = 0; i < emailArray.length; i += 1) {
+  for (let i = 0; i < emailArray.length; i++) {
     if (
       emailArray[i] !== emailArray[i].toLowerCase()
       && emailArray[i] !== '@' && emailArray[i] !== '.'
