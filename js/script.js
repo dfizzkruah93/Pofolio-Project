@@ -324,7 +324,7 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
     responseContainer.innerHTML = '';
   } else {
     e.preventDefault();
-    responseContainer.innerHTML = 'Uppercase not allowed. Enter lowercase';
+    responseContainer.innerHTML = 'Please enter your email in lower case only';
   }
 });
 
