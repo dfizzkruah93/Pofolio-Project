@@ -40,10 +40,9 @@ This website exists solely for personal use and display of skill proficiency. Yo
 
 👤 George D Kruah
 
-- GitHub: @dfizzkruah93
-- Twitter: @DKruah
-- LinkedIn: George D Kruah
-
+- GitHub: [@dfizzkruah93](https://github.com/dfizzkruah93)
+- Twitter: [@DKruah](https://twitter.com/DKruah)
+- LinkedIn: [George D Kruah](https://linkedin.com/in/George D Kruah)
 ## 🤝 Contributing
 
 To any developer who would wish to contribute to this project, you are welcome!
